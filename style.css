@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+#container {
+  height: 695px;
+  filter: drop-shadow(1px 1px 15px #141212);
+  background-image: url(./onlinebg.jpg);
+}
+
+.logo
+img {
+  max-width: 250px;
+  margin-right: 35px;
+  filter: hue-rotate(850deg);
+}
+
+header {
+  position: relative;
+  width: 80%;
+  top: 2;
+  right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 13%;
+  transition: all 0.4s ease;
+  margin: 0px 41px 0px 0px;
+}
+
+
+#navbar {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  border: none;
+  font-size: 17px;
+  margin-left: 200px;
+}
+
+#navbar input{
+  width: 150px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: rgb(198, 233, 239);
+}
+
+#navbar input:hover{
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+}
+
+#navbar a {
+  color: rgb(41, 40, 40);
+  font-weight: 600;
+  padding: 10px 22px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: rgb(225, 26, 26);
+  filter: drop-shadow(1px 1px 2px #363434);
+}
+
+#left-side{
+  width: 50%;
+  position: relative;
+  left: 60px;
+}
+
+.heading{
+  font-size: 28px;
+  line-height: 60px;
+  font-family:"Ubuntu", sans-serif ;
+}
+
+.heading h1{
+  color: orange;
+}
+.heading h2{
+  font-weight: 500;
+}
+
+h4{
+  font-size: 20px;
+}
+
+#left-side p{
+  margin-top: 15px;
+}
+
+#right-side{
+  width: 50%;
+  position: relative;
+}
+
+#right-side img{
+  position: relative;
+  width: 70vh;
+  height: 76vh;
+  left: 160px;
+  top: 27px;
+  filter: drop-shadow(5px 5px 10px #3d3c3c);
+}
+
+#parent{
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn{
+  margin-top: 30px;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(253, 164, 0);
+  color: rgb(8, 7, 7);
+  border-radius: 5px;
+}
+
+#btn:hover{
+  background-color: rgb(100, 193, 233);
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 5px #3d3c3c);
+  font-size: medium;
+}
